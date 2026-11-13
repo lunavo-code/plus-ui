@@ -15,7 +15,7 @@
       </template>
 
       <el-form ref="formRef" :model="model" inline class="query-form" @submit.prevent="search()">
-        <slot />
+        <slot></slot>
         <el-form-item>
           <el-button type="primary" icon="Search" native-type="submit">搜索</el-button>
           <el-button icon="Refresh" native-type="button" @click="handleReset">重置</el-button>

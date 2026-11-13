@@ -10,7 +10,7 @@
     :show-close="!saving"
   >
     <el-form v-if="form" ref="formRef" :model="form" :rules="rules" :disabled="saving" :label-width="labelWidth">
-      <slot :form="form" />
+      <slot :form="form"></slot>
     </el-form>
     <template #footer>
       <div class="dialog-footer">
